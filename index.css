@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap");
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0;
+  font-family: "Yeseva One", cursive;
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  height: 100%;
+  max-width: 1256px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.promo-section {
+  background-color: #131313;
+  height: 1074px;
+}
+
+.promo-section__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo-section__wrapper__horizontal-align {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo-section__left-side {
+  display: flex;
+  flex-direction: column;
+  margin-top: 176px;
+  max-width: 442px;
+}
+
+.promo-section__left-side__header {
+  margin-bottom: 42px;
+}
+
+.promo-section__left-side__header__h2 {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #e3b873;
+  margin-bottom: 34px;
+}
+
+.promo-section__left-side__header__p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.promo-section__left-side__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 34px;
+}
+
+.promo-section__left-side__body__card {
+}
+
+.promo-section__left-side__body__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #e3b873;
+}
+
+.promo-section__left-side__body__description {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.promo-section__left-side__pagination {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.promo-section__left-side__pagination__left-button {
+  background-color: #ffffff00;
+  border: none;
+  background-image: url(./img/left-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 42px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.promo-section__left-side__pagination__right-button {
+  background-color: #ffffff00;
+  border: none;
+  background-image: url(./img/right-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 42px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.promo-section__left-side__pagination__page {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0 9px;
+}
+
+.promo-section__left-side__pagination__page_is-active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.promo-section__right-side {
+  margin-top: 107px;
+  max-width: 679px;
+}
+
+.promo-section__right-side__navbar {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 45px;
+}
+
+.promo-section__right-side__navbar__link {
+  white-space: nowrap;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.3);
+  padding-bottom: 8px;
+}
+
+.promo-section__right-side__navbar__link_is-active {
+  display: block;
+  box-sizing: content-box;
+  color: #e3b873;
+  border-bottom: 1px solid #e3b873;
+}
+
+.promo-section__right-side__images {
+}
+
+.promo-section__right-side__image {
+}
+
+.promo-section__wrapper__video-block {
+  margin-top: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo-section__wrapper__video-block__header {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.promo-section__wrapper__video-block__camera-icon {
+  display: flex;
+  align-items: center;
+}
+
+.promo-section__wrapper__video-block__camera-icon__line {
+  background-image: url(./img/line.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32px;
+  height: 2px;
+}
+
+.promo-section__wrapper__video-block__camera-icon__camera {
+  background-image: url(./img/camera.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 33px;
+  height: 28px;
+  margin: 0 8px;
+}
+
+.promo-section__wrapper__video-block__video {
+  position: relative;
+  top: 32px;
+  width: 817px;
+  height: 434px;
+  background-image: url(./img/video.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

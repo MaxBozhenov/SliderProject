@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./index.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="./components/promo-section.css"> -->
+    
+</head>
+<body>
+
+    <section class="promo-section" data-active-index="0">
+        <div class="container promo-section__wrapper">
+          <div class="promo-section__wrapper__horizontal-align">
+            <div class="promo-section__left-side">
+              <div class="promo-section__left-side__header">
+                <h2 class="promo-section__left-side__header__h2">
+                  Completed<br />
+                  projects
+                </h2>
+                <p class="promo-section__left-side__header__p">
+                  Only a small part of the work performed by our company is
+                  presented on the site. For 14 years on in the construction
+                  market we have made happy more than 1000 families
+                </p>
+              </div>
+
+              <div class="promo-section__left-side__body">
+                <div class="promo-section__left-side__body__card">
+                  <h3 class="promo-section__left-side__body__title">CITY:</h3>
+                  <p class="promo-section__left-side__body__description" data-project-option="city">
+                    Rostov-on-Don LCD admiral
+                  </p>
+                </div>
+                <div class="promo-section__left-side__body__card">
+                  <h3 class="promo-section__left-side__body__title">
+                    APARTAMENT AREA:
+                  </h3>
+                  <p class="promo-section__left-side__body__description" data-project-option="apartament-area">
+                    81 m2
+                  </p>
+                </div>
+                <div class="promo-section__left-side__body__card">
+                  <h3 class="promo-section__left-side__body__title">
+                    REPAIR TIME:
+                  </h3>
+                  <p class="promo-section__left-side__body__description" data-project-option="repair-time">
+                    3.5 months
+                  </p>
+                </div>
+                <div class="promo-section__left-side__body__card">
+                  <h3 class="promo-section__left-side__body__title">
+                    REPAIR COST:
+                  </h3>
+                  <p class="promo-section__left-side__body__description">
+                    Upon request
+                  </p>
+                </div>
+              </div>
+
+              <div class="promo-section__left-side__pagination">
+                <button
+                  class="promo-section__left-side__pagination__left-button"
+                  type="button"
+                >
+                </button>
+                <div
+                  class="promo-section__left-side__pagination__page promo-section__left-side__pagination__page_is-active" data-project-id-link="0"
+                ></div>
+                <div class="promo-section__left-side__pagination__page" data-project-id-link="1"></div>
+                <div class="promo-section__left-side__pagination__page" data-project-id-link="2"></div>
+                <button
+                  class="promo-section__left-side__pagination__right-button"
+                  type="button"
+                >
+                </button>
+              </div>
+            </div>
+
+            <div class="promo-section__right-side">
+              <div class="promo-section__right-side__navbar">
+                <a
+                  href="#"
+                  class="promo-section__right-side__navbar__link promo-section__right-side__navbar__link_is-active"
+                  data-project-id-link="0"
+                >
+                  Rostov-on-Don, Admiral
+                </a>
+                <a href="" class="promo-section__right-side__navbar__link" data-project-id-link="1">
+                  Sochi Thieves
+                </a>
+                <a href="" class="promo-section__right-side__navbar__link" data-project-id-link="2">
+                  Rostov-on-Don Patriotic
+                </a>
+              </div>
+              <div class="promo-section__right-side__images">
+                <img
+                  class="promo-section__right-side__image"
+                  src="./img/photo1.png"
+                  alt="promoimg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+  <script src="./index.js"></script>
+</body>
+</html>
